@@ -1,0 +1,1010 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2147C084389B72865B83984E /* Pods-GFPlayerView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F97A5B1FFAC30B259D706B /* Pods-GFPlayerView_Tests-dummy.m */; };
+		266F999CAAEF094327768AC4 /* Pods-GFPlayerView_Tests-GFPlayerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09C012CEA4FBC99FE5B18121 /* Pods-GFPlayerView_Tests-GFPlayerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CC1EC788F7A0159223D183B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F0A69BBF7DD4433E121061 /* Foundation.framework */; };
+		467F27839D98C8B5B104DE16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F0A69BBF7DD4433E121061 /* Foundation.framework */; };
+		6421EE4E16F096BB6075BD0E /* Pods-GFPlayerView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4474FE8048F7F1B507E49624 /* Pods-GFPlayerView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D878FC681D3D098C2EE3BE9 /* Pods-GFPlayerView_Example-GFPlayerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8BC7CA2D423D72CC7935E58 /* Pods-GFPlayerView_Example-GFPlayerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DC739B5A4E1D4B8A4E9B6CF /* Pods-GFPlayerView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43A5763CADCE8D1FBD9D9CC5 /* Pods-GFPlayerView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71A26CA8042F5BE43CAF3F49 /* Pods-GFPlayerView_Example-GFPlayerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C2B39806BC16A695ECE455 /* Pods-GFPlayerView_Example-GFPlayerView-dummy.m */; };
+		763EC529937A2B26807EB0EE /* Pods-GFPlayerView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF17E4B432627641FECDF00 /* Pods-GFPlayerView_Example-dummy.m */; };
+		7D5A1FA877EAA7CF80AE92FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F0A69BBF7DD4433E121061 /* Foundation.framework */; };
+		906B2C4902A1B97C231F584B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF86D1AFCCD66738688B043 /* ReplaceMe.swift */; };
+		B8380C815EAEDC1403313DDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F0A69BBF7DD4433E121061 /* Foundation.framework */; };
+		BADBD89607A38BECF8FE4C70 /* Pods-GFPlayerView_Tests-GFPlayerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A10D00DE93C52DB224834577 /* Pods-GFPlayerView_Tests-GFPlayerView-dummy.m */; };
+		CAC2FF37AA8D08205EBA4F02 /* GFPlayerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 10C29BF6E17721C3E905C8A6 /* GFPlayerView.bundle */; };
+		CB9D4D286A7550F10E70583D /* GFPlayerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3C9D0CC54FAB0F9660821809 /* GFPlayerView.bundle */; };
+		D8382B2915CA8AE9708B16B3 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF86D1AFCCD66738688B043 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		099C13F4A7923B192075934D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51AF20CF755760D47B76A4F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5934E27BAA456269403D5E8E;
+			remoteInfo = "Pods-GFPlayerView_Example-GFPlayerView";
+		};
+		1D696B6322098AFD27368CE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51AF20CF755760D47B76A4F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EDA82005FD660A1ABB216B1;
+			remoteInfo = "Pods-GFPlayerView_Tests-GFPlayerView";
+		};
+		83A01974F20DA77F084A7B3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51AF20CF755760D47B76A4F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 852A2F9F1CAEE1C7E2AC25D1;
+			remoteInfo = "Pods-GFPlayerView_Tests-GFPlayerView-GFPlayerView";
+		};
+		D0AFC934401205D08E6BC206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51AF20CF755760D47B76A4F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54F745959F21BC197737A56C;
+			remoteInfo = "Pods-GFPlayerView_Example-GFPlayerView-GFPlayerView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09C012CEA4FBC99FE5B18121 /* Pods-GFPlayerView_Tests-GFPlayerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-GFPlayerView_Tests-GFPlayerView-umbrella.h"; path = "../Pods-GFPlayerView_Tests-GFPlayerView/Pods-GFPlayerView_Tests-GFPlayerView-umbrella.h"; sourceTree = "<group>"; };
+		0A6B644EC432CF8D2A603D7B /* Pods-GFPlayerView_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GFPlayerView_Example-environment.h"; sourceTree = "<group>"; };
+		0EE3ADDDD625E0AA0E430B8D /* Pods-GFPlayerView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GFPlayerView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		10C29BF6E17721C3E905C8A6 /* GFPlayerView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFPlayerView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		12DD5DC04202A9667B996FFD /* Pods-GFPlayerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GFPlayerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1BD600B3F445C3641C069D55 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		21C78336715DCD55597C3455 /* Pods-GFPlayerView_Tests-GFPlayerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-GFPlayerView_Tests-GFPlayerView-prefix.pch"; path = "../Pods-GFPlayerView_Tests-GFPlayerView/Pods-GFPlayerView_Tests-GFPlayerView-prefix.pch"; sourceTree = "<group>"; };
+		307777C487CF67DF8C0AE18B /* Pods-GFPlayerView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GFPlayerView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35A0A581F6306F5CBFD71FF3 /* Pods-GFPlayerView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GFPlayerView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3BFAFA072FFD43B6C29BB66E /* Pods_GFPlayerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GFPlayerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9D0CC54FAB0F9660821809 /* GFPlayerView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFPlayerView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C2B39806BC16A695ECE455 /* Pods-GFPlayerView_Example-GFPlayerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GFPlayerView_Example-GFPlayerView-dummy.m"; sourceTree = "<group>"; };
+		43A5763CADCE8D1FBD9D9CC5 /* Pods-GFPlayerView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GFPlayerView_Example-umbrella.h"; sourceTree = "<group>"; };
+		43D49D18D09AF7C28C882FCB /* Pods_GFPlayerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GFPlayerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4474FE8048F7F1B507E49624 /* Pods-GFPlayerView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GFPlayerView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5C69A27060DB0215B65C4CAB /* Pods-GFPlayerView_Example-GFPlayerView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GFPlayerView_Example-GFPlayerView-Private.xcconfig"; sourceTree = "<group>"; };
+		64B423A0A31D37BAEE023B61 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67CF4D1A6C16BF9C622BFBB7 /* Pods-GFPlayerView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GFPlayerView_Tests-resources.sh"; sourceTree = "<group>"; };
+		70096654BE08D944C65A1C3B /* Pods-GFPlayerView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GFPlayerView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		79594E05C0692798926F1816 /* Pods-GFPlayerView_Tests-GFPlayerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-GFPlayerView_Tests-GFPlayerView.modulemap"; path = "../Pods-GFPlayerView_Tests-GFPlayerView/Pods-GFPlayerView_Tests-GFPlayerView.modulemap"; sourceTree = "<group>"; };
+		7D8331F4C7FB996045F1C326 /* Pods-GFPlayerView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GFPlayerView_Example-resources.sh"; sourceTree = "<group>"; };
+		81F0481254345FD26B2723E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C28CE5717CA6CAC0ECD949B /* Pods-GFPlayerView_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GFPlayerView_Tests-environment.h"; sourceTree = "<group>"; };
+		915F53ECA29D025649C3381C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-GFPlayerView_Tests-GFPlayerView/Info.plist"; sourceTree = "<group>"; };
+		91F72A944652ECBE6FCF616C /* Pods-GFPlayerView_Tests-GFPlayerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFPlayerView_Tests-GFPlayerView.xcconfig"; path = "../Pods-GFPlayerView_Tests-GFPlayerView/Pods-GFPlayerView_Tests-GFPlayerView.xcconfig"; sourceTree = "<group>"; };
+		96A59C85143D36D43BAF4724 /* Pods-GFPlayerView_Example-GFPlayerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GFPlayerView_Example-GFPlayerView.xcconfig"; sourceTree = "<group>"; };
+		97DEA61999FC31405FBFD9B4 /* GFPlayerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GFPlayerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF17E4B432627641FECDF00 /* Pods-GFPlayerView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GFPlayerView_Example-dummy.m"; sourceTree = "<group>"; };
+		9CA188B984E200C282679742 /* Pods-GFPlayerView_Example-GFPlayerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GFPlayerView_Example-GFPlayerView-prefix.pch"; sourceTree = "<group>"; };
+		A10D00DE93C52DB224834577 /* Pods-GFPlayerView_Tests-GFPlayerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-GFPlayerView_Tests-GFPlayerView-dummy.m"; path = "../Pods-GFPlayerView_Tests-GFPlayerView/Pods-GFPlayerView_Tests-GFPlayerView-dummy.m"; sourceTree = "<group>"; };
+		A479AC4F30C9A90A951987C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8B9B3BA5B0F32EC06AAC1BC /* Pods-GFPlayerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GFPlayerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A8C6FAC9A5BD22157242B2C1 /* Pods-GFPlayerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GFPlayerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE7555542DCC6A77741D161C /* Pods-GFPlayerView_Tests-GFPlayerView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFPlayerView_Tests-GFPlayerView-Private.xcconfig"; path = "../Pods-GFPlayerView_Tests-GFPlayerView/Pods-GFPlayerView_Tests-GFPlayerView-Private.xcconfig"; sourceTree = "<group>"; };
+		B71B3AB1616DCF41321F0386 /* Pods-GFPlayerView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GFPlayerView_Tests.modulemap"; sourceTree = "<group>"; };
+		BCC7120DE2C41A2A75CF0ACD /* Pods-GFPlayerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GFPlayerView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C0F8938FCCE0F0A1BFAE58CA /* GFPlayerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GFPlayerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8BC7CA2D423D72CC7935E58 /* Pods-GFPlayerView_Example-GFPlayerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GFPlayerView_Example-GFPlayerView-umbrella.h"; sourceTree = "<group>"; };
+		D8F0A69BBF7DD4433E121061 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DC203F0509C46093F993D55B /* Pods-GFPlayerView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GFPlayerView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DCF86D1AFCCD66738688B043 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		EDFDDB02B23E8F56003CB549 /* Pods-GFPlayerView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GFPlayerView_Example.modulemap"; sourceTree = "<group>"; };
+		F9F97A5B1FFAC30B259D706B /* Pods-GFPlayerView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GFPlayerView_Tests-dummy.m"; sourceTree = "<group>"; };
+		FAADC7594B9D03C6B3CAF1AA /* Pods-GFPlayerView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GFPlayerView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FDEB7719A1B10E8452D4D332 /* Pods-GFPlayerView_Example-GFPlayerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GFPlayerView_Example-GFPlayerView.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01BFA7EF273C6254EF4FAAF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8380C815EAEDC1403313DDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3DC4659D336492D39FEA2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5A1FA877EAA7CF80AE92FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E963926316C1C34FA73E5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC1EC788F7A0159223D183B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8995E4AD34D8B3923B48C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1F2552C73EF23C50DAEAD15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD263E104F12DF6FE51A1608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467F27839D98C8B5B104DE16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02577DC8F1AFE0D19060CEBA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4A167751CD2326C38E09EA7 /* Pods-GFPlayerView_Example */,
+				F3C0EB984732A36B979B341B /* Pods-GFPlayerView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		10794F3964B6A42FFDC14194 /* GFPlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				E512CEB2C409DC34CEB839CD /* Pod */,
+				27CCD29406DB548B6F9BD52A /* Support Files */,
+			);
+			name = GFPlayerView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		27CCD29406DB548B6F9BD52A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81F0481254345FD26B2723E9 /* Info.plist */,
+				915F53ECA29D025649C3381C /* Info.plist */,
+				FDEB7719A1B10E8452D4D332 /* Pods-GFPlayerView_Example-GFPlayerView.modulemap */,
+				96A59C85143D36D43BAF4724 /* Pods-GFPlayerView_Example-GFPlayerView.xcconfig */,
+				5C69A27060DB0215B65C4CAB /* Pods-GFPlayerView_Example-GFPlayerView-Private.xcconfig */,
+				41C2B39806BC16A695ECE455 /* Pods-GFPlayerView_Example-GFPlayerView-dummy.m */,
+				9CA188B984E200C282679742 /* Pods-GFPlayerView_Example-GFPlayerView-prefix.pch */,
+				D8BC7CA2D423D72CC7935E58 /* Pods-GFPlayerView_Example-GFPlayerView-umbrella.h */,
+				79594E05C0692798926F1816 /* Pods-GFPlayerView_Tests-GFPlayerView.modulemap */,
+				91F72A944652ECBE6FCF616C /* Pods-GFPlayerView_Tests-GFPlayerView.xcconfig */,
+				AE7555542DCC6A77741D161C /* Pods-GFPlayerView_Tests-GFPlayerView-Private.xcconfig */,
+				A10D00DE93C52DB224834577 /* Pods-GFPlayerView_Tests-GFPlayerView-dummy.m */,
+				21C78336715DCD55597C3455 /* Pods-GFPlayerView_Tests-GFPlayerView-prefix.pch */,
+				09C012CEA4FBC99FE5B18121 /* Pods-GFPlayerView_Tests-GFPlayerView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-GFPlayerView_Example-GFPlayerView";
+			sourceTree = "<group>";
+		};
+		3197A43D9BC4D5E50BDF91B3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10794F3964B6A42FFDC14194 /* GFPlayerView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4FA88912A6F8331BCCE240F8 = {
+			isa = PBXGroup;
+			children = (
+				1BD600B3F445C3641C069D55 /* Podfile */,
+				3197A43D9BC4D5E50BDF91B3 /* Development Pods */,
+				C3B3DEAB8531153958C46E5F /* Frameworks */,
+				A531FD8C3BB2CDB2B62BC327 /* Products */,
+				02577DC8F1AFE0D19060CEBA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		509847F132DE079DB9E781F1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DCF86D1AFCCD66738688B043 /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		93BE5DC069FB3CBE1D736994 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D8F0A69BBF7DD4433E121061 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A531FD8C3BB2CDB2B62BC327 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C9D0CC54FAB0F9660821809 /* GFPlayerView.bundle */,
+				10C29BF6E17721C3E905C8A6 /* GFPlayerView.bundle */,
+				97DEA61999FC31405FBFD9B4 /* GFPlayerView.framework */,
+				C0F8938FCCE0F0A1BFAE58CA /* GFPlayerView.framework */,
+				3BFAFA072FFD43B6C29BB66E /* Pods_GFPlayerView_Example.framework */,
+				43D49D18D09AF7C28C882FCB /* Pods_GFPlayerView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3B3DEAB8531153958C46E5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93BE5DC069FB3CBE1D736994 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4A167751CD2326C38E09EA7 /* Pods-GFPlayerView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				64B423A0A31D37BAEE023B61 /* Info.plist */,
+				EDFDDB02B23E8F56003CB549 /* Pods-GFPlayerView_Example.modulemap */,
+				FAADC7594B9D03C6B3CAF1AA /* Pods-GFPlayerView_Example-acknowledgements.markdown */,
+				70096654BE08D944C65A1C3B /* Pods-GFPlayerView_Example-acknowledgements.plist */,
+				9BF17E4B432627641FECDF00 /* Pods-GFPlayerView_Example-dummy.m */,
+				0A6B644EC432CF8D2A603D7B /* Pods-GFPlayerView_Example-environment.h */,
+				DC203F0509C46093F993D55B /* Pods-GFPlayerView_Example-frameworks.sh */,
+				7D8331F4C7FB996045F1C326 /* Pods-GFPlayerView_Example-resources.sh */,
+				43A5763CADCE8D1FBD9D9CC5 /* Pods-GFPlayerView_Example-umbrella.h */,
+				12DD5DC04202A9667B996FFD /* Pods-GFPlayerView_Example.debug.xcconfig */,
+				BCC7120DE2C41A2A75CF0ACD /* Pods-GFPlayerView_Example.release.xcconfig */,
+			);
+			name = "Pods-GFPlayerView_Example";
+			path = "Target Support Files/Pods-GFPlayerView_Example";
+			sourceTree = "<group>";
+		};
+		E512CEB2C409DC34CEB839CD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				509847F132DE079DB9E781F1 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		F3C0EB984732A36B979B341B /* Pods-GFPlayerView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A479AC4F30C9A90A951987C7 /* Info.plist */,
+				B71B3AB1616DCF41321F0386 /* Pods-GFPlayerView_Tests.modulemap */,
+				307777C487CF67DF8C0AE18B /* Pods-GFPlayerView_Tests-acknowledgements.markdown */,
+				35A0A581F6306F5CBFD71FF3 /* Pods-GFPlayerView_Tests-acknowledgements.plist */,
+				F9F97A5B1FFAC30B259D706B /* Pods-GFPlayerView_Tests-dummy.m */,
+				8C28CE5717CA6CAC0ECD949B /* Pods-GFPlayerView_Tests-environment.h */,
+				0EE3ADDDD625E0AA0E430B8D /* Pods-GFPlayerView_Tests-frameworks.sh */,
+				67CF4D1A6C16BF9C622BFBB7 /* Pods-GFPlayerView_Tests-resources.sh */,
+				4474FE8048F7F1B507E49624 /* Pods-GFPlayerView_Tests-umbrella.h */,
+				A8C6FAC9A5BD22157242B2C1 /* Pods-GFPlayerView_Tests.debug.xcconfig */,
+				A8B9B3BA5B0F32EC06AAC1BC /* Pods-GFPlayerView_Tests.release.xcconfig */,
+			);
+			name = "Pods-GFPlayerView_Tests";
+			path = "Target Support Files/Pods-GFPlayerView_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2BADEE8C335DCF035F5F0983 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266F999CAAEF094327768AC4 /* Pods-GFPlayerView_Tests-GFPlayerView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B63BE4EC291DAC47430F598 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D878FC681D3D098C2EE3BE9 /* Pods-GFPlayerView_Example-GFPlayerView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2FC985F53DD98BA4E575F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC739B5A4E1D4B8A4E9B6CF /* Pods-GFPlayerView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DCFD4D6C0604BAA5E73609 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6421EE4E16F096BB6075BD0E /* Pods-GFPlayerView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		54F745959F21BC197737A56C /* Pods-GFPlayerView_Example-GFPlayerView-GFPlayerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A62B5CD9796638393A747983 /* Build configuration list for PBXNativeTarget "Pods-GFPlayerView_Example-GFPlayerView-GFPlayerView" */;
+			buildPhases = (
+				D3505E625ED2FE762ED0B452 /* Sources */,
+				B1F2552C73EF23C50DAEAD15 /* Frameworks */,
+				CF5CBD5B65C6F34F82A9A48E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GFPlayerView_Example-GFPlayerView-GFPlayerView";
+			productName = "Pods-GFPlayerView_Example-GFPlayerView-GFPlayerView";
+			productReference = 10C29BF6E17721C3E905C8A6 /* GFPlayerView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5934E27BAA456269403D5E8E /* Pods-GFPlayerView_Example-GFPlayerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7450706A1880C30EFC54676 /* Build configuration list for PBXNativeTarget "Pods-GFPlayerView_Example-GFPlayerView" */;
+			buildPhases = (
+				69B55E1D0F4B7F77E8087A44 /* Sources */,
+				FD263E104F12DF6FE51A1608 /* Frameworks */,
+				41852EE4602CD2165487C33A /* Resources */,
+				9B63BE4EC291DAC47430F598 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C18D3BB5AF9DDF94F1D5BC83 /* PBXTargetDependency */,
+			);
+			name = "Pods-GFPlayerView_Example-GFPlayerView";
+			productName = "Pods-GFPlayerView_Example-GFPlayerView";
+			productReference = 97DEA61999FC31405FBFD9B4 /* GFPlayerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		75EDCE28DDB5816192D28A9C /* Pods-GFPlayerView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4ED486942A16AD286AE11D4 /* Build configuration list for PBXNativeTarget "Pods-GFPlayerView_Example" */;
+			buildPhases = (
+				3E0D58B397D08A0012D8DE94 /* Sources */,
+				81E963926316C1C34FA73E5F /* Frameworks */,
+				EB2FC985F53DD98BA4E575F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F563EC18E4D89C917EC0DDC /* PBXTargetDependency */,
+			);
+			name = "Pods-GFPlayerView_Example";
+			productName = "Pods-GFPlayerView_Example";
+			productReference = 3BFAFA072FFD43B6C29BB66E /* Pods_GFPlayerView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		852A2F9F1CAEE1C7E2AC25D1 /* Pods-GFPlayerView_Tests-GFPlayerView-GFPlayerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE9B7C7796C5295158F8FCAE /* Build configuration list for PBXNativeTarget "Pods-GFPlayerView_Tests-GFPlayerView-GFPlayerView" */;
+			buildPhases = (
+				48607690AD5B4CA86BC054AD /* Sources */,
+				8C8995E4AD34D8B3923B48C1 /* Frameworks */,
+				9731DF252D7E8060909CD7CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GFPlayerView_Tests-GFPlayerView-GFPlayerView";
+			productName = "Pods-GFPlayerView_Tests-GFPlayerView-GFPlayerView";
+			productReference = 3C9D0CC54FAB0F9660821809 /* GFPlayerView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9EDA82005FD660A1ABB216B1 /* Pods-GFPlayerView_Tests-GFPlayerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 628BBFBCC804DDE71EE57AE8 /* Build configuration list for PBXNativeTarget "Pods-GFPlayerView_Tests-GFPlayerView" */;
+			buildPhases = (
+				BA4BA5491B460EF2AB707E4B /* Sources */,
+				01BFA7EF273C6254EF4FAAF2 /* Frameworks */,
+				5A5E7A48E2D69BC153D1FD98 /* Resources */,
+				2BADEE8C335DCF035F5F0983 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				699B69056E3815E55B5CE7C0 /* PBXTargetDependency */,
+			);
+			name = "Pods-GFPlayerView_Tests-GFPlayerView";
+			productName = "Pods-GFPlayerView_Tests-GFPlayerView";
+			productReference = C0F8938FCCE0F0A1BFAE58CA /* GFPlayerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A160C1E7750CE9D566FE08A6 /* Pods-GFPlayerView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF75AEAEAF17EE11CB0034D /* Build configuration list for PBXNativeTarget "Pods-GFPlayerView_Tests" */;
+			buildPhases = (
+				05933D32C096D2600BD27DA3 /* Sources */,
+				4D3DC4659D336492D39FEA2C /* Frameworks */,
+				F5DCFD4D6C0604BAA5E73609 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCFD76A951538FF333B3615B /* PBXTargetDependency */,
+			);
+			name = "Pods-GFPlayerView_Tests";
+			productName = "Pods-GFPlayerView_Tests";
+			productReference = 43D49D18D09AF7C28C882FCB /* Pods_GFPlayerView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51AF20CF755760D47B76A4F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = D066CA6DB55F3C3F6CDF72BC /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4FA88912A6F8331BCCE240F8;
+			productRefGroup = A531FD8C3BB2CDB2B62BC327 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75EDCE28DDB5816192D28A9C /* Pods-GFPlayerView_Example */,
+				5934E27BAA456269403D5E8E /* Pods-GFPlayerView_Example-GFPlayerView */,
+				54F745959F21BC197737A56C /* Pods-GFPlayerView_Example-GFPlayerView-GFPlayerView */,
+				A160C1E7750CE9D566FE08A6 /* Pods-GFPlayerView_Tests */,
+				9EDA82005FD660A1ABB216B1 /* Pods-GFPlayerView_Tests-GFPlayerView */,
+				852A2F9F1CAEE1C7E2AC25D1 /* Pods-GFPlayerView_Tests-GFPlayerView-GFPlayerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41852EE4602CD2165487C33A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC2FF37AA8D08205EBA4F02 /* GFPlayerView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5E7A48E2D69BC153D1FD98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9D4D286A7550F10E70583D /* GFPlayerView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9731DF252D7E8060909CD7CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5CBD5B65C6F34F82A9A48E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05933D32C096D2600BD27DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2147C084389B72865B83984E /* Pods-GFPlayerView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E0D58B397D08A0012D8DE94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763EC529937A2B26807EB0EE /* Pods-GFPlayerView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48607690AD5B4CA86BC054AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B55E1D0F4B7F77E8087A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A26CA8042F5BE43CAF3F49 /* Pods-GFPlayerView_Example-GFPlayerView-dummy.m in Sources */,
+				906B2C4902A1B97C231F584B /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4BA5491B460EF2AB707E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADBD89607A38BECF8FE4C70 /* Pods-GFPlayerView_Tests-GFPlayerView-dummy.m in Sources */,
+				D8382B2915CA8AE9708B16B3 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3505E625ED2FE762ED0B452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		699B69056E3815E55B5CE7C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GFPlayerView_Tests-GFPlayerView-GFPlayerView";
+			target = 852A2F9F1CAEE1C7E2AC25D1 /* Pods-GFPlayerView_Tests-GFPlayerView-GFPlayerView */;
+			targetProxy = 83A01974F20DA77F084A7B3B /* PBXContainerItemProxy */;
+		};
+		6F563EC18E4D89C917EC0DDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GFPlayerView_Example-GFPlayerView";
+			target = 5934E27BAA456269403D5E8E /* Pods-GFPlayerView_Example-GFPlayerView */;
+			targetProxy = 099C13F4A7923B192075934D /* PBXContainerItemProxy */;
+		};
+		BCFD76A951538FF333B3615B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GFPlayerView_Tests-GFPlayerView";
+			target = 9EDA82005FD660A1ABB216B1 /* Pods-GFPlayerView_Tests-GFPlayerView */;
+			targetProxy = 1D696B6322098AFD27368CE1 /* PBXContainerItemProxy */;
+		};
+		C18D3BB5AF9DDF94F1D5BC83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GFPlayerView_Example-GFPlayerView-GFPlayerView";
+			target = 54F745959F21BC197737A56C /* Pods-GFPlayerView_Example-GFPlayerView-GFPlayerView */;
+			targetProxy = D0AFC934401205D08E6BC206 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24A2021017952E99A626BE34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCC7120DE2C41A2A75CF0ACD /* Pods-GFPlayerView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GFPlayerView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GFPlayerView_Example/Pods-GFPlayerView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_GFPlayerView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2BE90E3FDBB292D8F598B7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12DD5DC04202A9667B996FFD /* Pods-GFPlayerView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GFPlayerView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GFPlayerView_Example/Pods-GFPlayerView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_GFPlayerView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		40E2FDCFD17168E116BDE09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69E8533046940A35E16A5E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C69A27060DB0215B65C4CAB /* Pods-GFPlayerView_Example-GFPlayerView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-GFPlayerView_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GFPlayerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6EBFC8D44B0331122676794A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE7555542DCC6A77741D161C /* Pods-GFPlayerView_Tests-GFPlayerView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-GFPlayerView_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GFPlayerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7A750AE1E3369FC64F8F3867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE7555542DCC6A77741D161C /* Pods-GFPlayerView_Tests-GFPlayerView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-GFPlayerView_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GFPlayerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		9C817932B1DF8350366FD2FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C69A27060DB0215B65C4CAB /* Pods-GFPlayerView_Example-GFPlayerView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GFPlayerView_Example-GFPlayerView/Pods-GFPlayerView_Example-GFPlayerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-GFPlayerView_Example-GFPlayerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GFPlayerView_Example-GFPlayerView/Pods-GFPlayerView_Example-GFPlayerView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GFPlayerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A714205EBB33EBD513A99055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C69A27060DB0215B65C4CAB /* Pods-GFPlayerView_Example-GFPlayerView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-GFPlayerView_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GFPlayerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A7BC48FFC094D5FA54B84CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE7555542DCC6A77741D161C /* Pods-GFPlayerView_Tests-GFPlayerView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GFPlayerView_Tests-GFPlayerView/Pods-GFPlayerView_Tests-GFPlayerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-GFPlayerView_Tests-GFPlayerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GFPlayerView_Tests-GFPlayerView/Pods-GFPlayerView_Tests-GFPlayerView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GFPlayerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB2110881B687D113132F116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B27BD219247B2B5939E7906C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE7555542DCC6A77741D161C /* Pods-GFPlayerView_Tests-GFPlayerView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GFPlayerView_Tests-GFPlayerView/Pods-GFPlayerView_Tests-GFPlayerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-GFPlayerView_Tests-GFPlayerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GFPlayerView_Tests-GFPlayerView/Pods-GFPlayerView_Tests-GFPlayerView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GFPlayerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B9734E31589FC8581FD55C37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8C6FAC9A5BD22157242B2C1 /* Pods-GFPlayerView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GFPlayerView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GFPlayerView_Tests/Pods-GFPlayerView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_GFPlayerView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C608820AF1B9FEA53AD7925F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B9B3BA5B0F32EC06AAC1BC /* Pods-GFPlayerView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GFPlayerView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GFPlayerView_Tests/Pods-GFPlayerView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_GFPlayerView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9F611FAE545408842B1424D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C69A27060DB0215B65C4CAB /* Pods-GFPlayerView_Example-GFPlayerView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GFPlayerView_Example-GFPlayerView/Pods-GFPlayerView_Example-GFPlayerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-GFPlayerView_Example-GFPlayerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GFPlayerView_Example-GFPlayerView/Pods-GFPlayerView_Example-GFPlayerView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GFPlayerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		628BBFBCC804DDE71EE57AE8 /* Build configuration list for PBXNativeTarget "Pods-GFPlayerView_Tests-GFPlayerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27BD219247B2B5939E7906C /* Debug */,
+				A7BC48FFC094D5FA54B84CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A62B5CD9796638393A747983 /* Build configuration list for PBXNativeTarget "Pods-GFPlayerView_Example-GFPlayerView-GFPlayerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A714205EBB33EBD513A99055 /* Debug */,
+				69E8533046940A35E16A5E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF75AEAEAF17EE11CB0034D /* Build configuration list for PBXNativeTarget "Pods-GFPlayerView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9734E31589FC8581FD55C37 /* Debug */,
+				C608820AF1B9FEA53AD7925F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4ED486942A16AD286AE11D4 /* Build configuration list for PBXNativeTarget "Pods-GFPlayerView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE90E3FDBB292D8F598B7B3 /* Debug */,
+				24A2021017952E99A626BE34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7450706A1880C30EFC54676 /* Build configuration list for PBXNativeTarget "Pods-GFPlayerView_Example-GFPlayerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F611FAE545408842B1424D /* Debug */,
+				9C817932B1DF8350366FD2FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D066CA6DB55F3C3F6CDF72BC /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2110881B687D113132F116 /* Debug */,
+				40E2FDCFD17168E116BDE09A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE9B7C7796C5295158F8FCAE /* Build configuration list for PBXNativeTarget "Pods-GFPlayerView_Tests-GFPlayerView-GFPlayerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBFC8D44B0331122676794A /* Debug */,
+				7A750AE1E3369FC64F8F3867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51AF20CF755760D47B76A4F9 /* Project object */;
+}

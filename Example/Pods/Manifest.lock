@@ -1,0 +1,14 @@
+PODS:
+  - GFPlayerView (0.1.0)
+
+DEPENDENCIES:
+  - GFPlayerView (from `../`)
+
+EXTERNAL SOURCES:
+  GFPlayerView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GFPlayerView: 3ac2d89ed7762c36d1707a3e128b9d7e26588d62
+
+COCOAPODS: 0.37.2

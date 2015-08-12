@@ -1,0 +1,6 @@
+framework module GFPlayerView {
+  umbrella header "Pods-GFPlayerView_Example-GFPlayerView-umbrella.h"
+
+  export *
+  module * { export * }
+}

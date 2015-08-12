@@ -10,14 +10,14 @@
 Pod::Spec.new do |s|
   s.name             = "GFPlayerView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of GFPlayerView."
+  s.summary          = "A subclass on UIView that displays gifs."
   s.description      = <<-DESC
-                       An optional longer description of GFPlayerView
+                       GFPlayerView lets you display gifs inside a modern player that also enables creators to link gifs back to their website or social network.
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/GFPlayerView"
+  s.homepage         = "https://github.com/GifYoutube/GFPlayerView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "jeon97" => "j.jeon971@gmail.com" }
