@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import GFPlayerView
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        var view = GFPlayerView(frame: CGRect(x: 0, y: 50, width: self.view.frame.width, height: 200))
+        view.setGifId("mlLr7a")
+        view.autoPlayEnabled = true
+        self.view.addSubview(view)
     }
 
     override func didReceiveMemoryWarning() {

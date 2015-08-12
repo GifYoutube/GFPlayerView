@@ -1,9 +1,9 @@
 {
   "name": "GFPlayerView",
   "version": "0.1.0",
-  "summary": "A short description of GFPlayerView.",
-  "description": "                       An optional longer description of GFPlayerView\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/GFPlayerView",
+  "summary": "A subclass on UIView that displays gifs.",
+  "description": "                       GFPlayerView lets you display gifs inside a modern player that also enables creators to link gifs back to their website or social network.\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/GifYoutube/GFPlayerView",
   "license": "MIT",
   "authors": {
     "jeon97": "j.jeon971@gmail.com"

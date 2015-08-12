@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "54F745959F21BC197737A56C"
+               BlueprintIdentifier = "50F99862A1BF7BAD7439FF53"
                BuildableName = "GFPlayerView.bundle"
                BlueprintName = "Pods-GFPlayerView_Example-GFPlayerView-GFPlayerView"
                ReferencedContainer = "container:Pods.xcodeproj">
