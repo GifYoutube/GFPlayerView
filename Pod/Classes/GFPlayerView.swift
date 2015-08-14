@@ -8,13 +8,20 @@
 import UIKit
 import AVFoundation
 
+//let GFTwitter = "twitter"
+//let GFReddit = "reddit"
+//let GFInstagram = "instagram"
+//let GFDribbble = "dribbble"
+//let GFCustomSite = "website"
+//let GFAnonymous = "anonymous"
+
 public class GFPlayerView: UIView, UIWebViewDelegate, NSURLConnectionDelegate {
     
     private var moviePlayer:AVPlayer!
     private var gifId:String!
-    private var gifytURL:String!
-    private var videoURL:String!
     private var youtubeId:String!
+    private var gifSet = false
+    private var gifVideoId:String!
     public var autoPlayEnabled:Bool = false {
         didSet {
             if autoPlayEnabled {
@@ -29,9 +36,69 @@ public class GFPlayerView: UIView, UIWebViewDelegate, NSURLConnectionDelegate {
         }
     }
     
+    private var sns:String!
+    private var username:String!
+    private var apiKey:String!
+    public func setGifURL(apiKey: String, url: String, sns: String, username: String) {
+        if !gifSet {
+            gifSet = true
+            self.apiKey = apiKey
+            self.sns = sns
+            self.username = username
+            post(["sourceId":url], url: "http://test.gifs.com/convertLink", callback: { (newId) -> Void in
+                self.gifId = newId
+                self.gifVideoId = newId
+                self.disableFullVideo()
+                self.setupPlayer()
+            })
+        }
+    }
+    
+    func post(params : [String:String], url : String, callback: (String) -> Void) {
+        var request = NSMutableURLRequest(URL: NSURL(string: url)!)
+        var session = NSURLSession.sharedSession()
+        request.HTTPMethod = "POST"
+        
+        var err: NSError?
+        request.HTTPBody = NSJSONSerialization.dataWithJSONObject(params, options: nil, error: &err)
+        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.addValue("application/json", forHTTPHeaderField: "Accept")
+        
+        var task = session.dataTaskWithRequest(request, completionHandler: {data, response, error -> Void in
+
+            var err: NSError?
+            var json = NSJSONSerialization.JSONObjectWithData(data, options: .MutableLeaves, error: &err) as? NSDictionary
+            
+            // Did the JSONObjectWithData constructor return an error? If so, log the error to the console
+            if(err != nil) {
+                println(err!.localizedDescription)
+                let jsonStr = NSString(data: data, encoding: NSUTF8StringEncoding)
+                println("Error could not parse JSON: '\(jsonStr)'")
+            }
+            else {
+                // The JSONObjectWithData constructor didn't return an error. But, we should still
+                // check and make sure that json has a value using optional binding.
+                if let parseJSON = json {
+                    if let newId = parseJSON["returned_val"] as? String {
+                        callback(newId)
+                    }
+                }
+                else {
+                    // Woa, okay the json object was nil, something went worng. Maybe the server isn't running?
+                    let jsonStr = NSString(data: data, encoding: NSUTF8StringEncoding)
+                    println("Error could not parse JSON: \(jsonStr)")
+                }
+            }
+        })
+        
+        task.resume()
+    }
+    
     public func setGifId(id: String) {
-        setupGifyt(id)
-        setupPlayer()
+        if !gifSet {
+            gifSet = true
+            setupGifyt(id)
+        }
     }
     
     override public init(frame: CGRect) {
@@ -41,8 +108,6 @@ public class GFPlayerView: UIView, UIWebViewDelegate, NSURLConnectionDelegate {
     
     func setupGifyt(id: String) {
         self.gifId = id
-        self.videoURL = "http://share.gifyoutube.com/\(id).mp4"
-        self.gifytURL = "http://gifyoutube.com/gif/\(id)"
         getJSON(id)
     }
     
@@ -77,7 +142,8 @@ public class GFPlayerView: UIView, UIWebViewDelegate, NSURLConnectionDelegate {
             fullVideoBtn.titleLabel?.font = UIFont.systemFontOfSize(18)
         }
         
-        moviePlayer = AVPlayer(URL: NSURL(string: videoURL))
+        println("http://j.gifs.com/\(self.gifVideoId).mp4")
+        moviePlayer = AVPlayer(URL: NSURL(string: "http://j.gifs.com/\(self.gifVideoId).mp4"))
         moviePlayer.actionAtItemEnd = AVPlayerActionAtItemEnd.None
         NSNotificationCenter.defaultCenter().addObserver(self,
             selector: "playerItemDidReachEnd:",
@@ -100,6 +166,8 @@ public class GFPlayerView: UIView, UIWebViewDelegate, NSURLConnectionDelegate {
             }
             started = true
         }
+        
+        println(moviePlayer.status.rawValue)
     }
     
     func playerItemDidReachEnd(notification: NSNotification) {
@@ -127,7 +195,7 @@ public class GFPlayerView: UIView, UIWebViewDelegate, NSURLConnectionDelegate {
     }
     
     @IBAction func goToGIFYT(sender: UIButton) {
-        let url = NSURL(string: "http://gifyoutube.com/gif/\(self.gifId)")
+        let url = NSURL(string: "http://gifs.com/gif/\(self.gifId)")
         UIApplication.sharedApplication().openURL(url!)
     }
     
@@ -244,7 +312,7 @@ public class GFPlayerView: UIView, UIWebViewDelegate, NSURLConnectionDelegate {
     }
     
     @IBAction func holdToCopy(sender: UIButton) {
-        UIPasteboard.generalPasteboard().string = self.gifytURL
+        UIPasteboard.generalPasteboard().string = "http://gifs.com/gif/\(self.gifId)"
         
         var label = UILabel(frame: CGRect(x: 0, y: 0, width: 100, height: 30))
         label.backgroundColor = UIColor(white: 1, alpha: 0.75)
@@ -303,18 +371,20 @@ public class GFPlayerView: UIView, UIWebViewDelegate, NSURLConnectionDelegate {
     }
     
     @IBAction func shareOnSNS(sender: UIButton) {
+        let gifytURL = "http://gifs.com/gif/\(self.gifId)"
+        
         if sender.titleLabel?.text == "facebook" {
-            UIApplication.sharedApplication().openURL(NSURL(string: "http://www.facebook.com/share.php?u=\(self.gifytURL)")!)
+            UIApplication.sharedApplication().openURL(NSURL(string: "http://www.facebook.com/share.php?u=\(gifytURL)")!)
         } else if sender.titleLabel?.text == "twitter" {
-            UIApplication.sharedApplication().openURL(NSURL(string: "http://twitter.com/intent/tweet?status=\(self.gifytURL)")!)
+            UIApplication.sharedApplication().openURL(NSURL(string: "http://twitter.com/intent/tweet?status=\(gifytURL)")!)
         } else if sender.titleLabel?.text == "tumblr" {
-            UIApplication.sharedApplication().openURL(NSURL(string: "http://www.tumblr.com/share?v=3&u=\(self.gifytURL)")!)
+            UIApplication.sharedApplication().openURL(NSURL(string: "http://www.tumblr.com/share?v=3&u=\(gifytURL)")!)
         } else if sender.titleLabel?.text == "pinterest" {
-            UIApplication.sharedApplication().openURL(NSURL(string: "https://www.pinterest.com/pin/create/button/?url=\(self.gifytURL)")!)
+            UIApplication.sharedApplication().openURL(NSURL(string: "https://www.pinterest.com/pin/create/button/?url=\(gifytURL)")!)
         } else if sender.titleLabel?.text == "reddit" {
-            UIApplication.sharedApplication().openURL(NSURL(string: "http://www.reddit.com/submit?url=\(self.gifytURL)")!)
+            UIApplication.sharedApplication().openURL(NSURL(string: "http://www.reddit.com/submit?url=\(gifytURL)")!)
         } else if sender.titleLabel?.text == "email" {
-            UIApplication.sharedApplication().openURL(NSURL(string: "mailto:?body=\(self.gifytURL)")!)
+            UIApplication.sharedApplication().openURL(NSURL(string: "mailto:?body=\(gifytURL)")!)
         }
     }
     
@@ -323,8 +393,8 @@ public class GFPlayerView: UIView, UIWebViewDelegate, NSURLConnectionDelegate {
         let urlPath: String = "http://wasted.gifyoutube.com/info/\(id)"
         var url: NSURL = NSURL(string: urlPath)!
         var request: NSURLRequest = NSURLRequest(URL: url)
-        var connection: NSURLConnection = NSURLConnection(request: request, delegate: self, startImmediately: false)!
-        connection.start()
+        var connection1 = NSURLConnection(request: request, delegate: self, startImmediately: false)!
+        connection1.start()
     }
     
     func connection(connection: NSURLConnection!, didReceiveData data: NSData!){
@@ -337,24 +407,27 @@ public class GFPlayerView: UIView, UIWebViewDelegate, NSURLConnectionDelegate {
     private var snsLink:String!
     func connectionDidFinishLoading(connection: NSURLConnection!) {
         var err: NSError
-
+        
         var jsonResult: NSDictionary = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers, error: nil) as! NSDictionary
+        
         if let yid = jsonResult["yid"] as? String {
             if yid != "" {
                 self.youtubeId = yid
             } else {
-                separator1.removeFromSuperview()
-                fullVideoBtn.removeFromSuperview()
-                shareRight.active = false
-                var l = NSLayoutConstraint(item: separator2, attribute: NSLayoutAttribute.Leading, relatedBy: NSLayoutRelation.Equal, toItem: shareBtn, attribute: NSLayoutAttribute.Trailing, multiplier: 1, constant: 8)
-                l.active = true
+                disableFullVideo()
             }
-            
         } else {
-            
+            disableFullVideo()
         }
         
-        
+        if let id = jsonResult["actualId"] as? String {
+            self.gifVideoId = id
+            setupPlayer()
+        } else {
+            self.gifVideoId = self.gifId
+            setupPlayer()
+        }
+            
         if let time = jsonResult["start"] as? String {
             self.start = time.toInt()!
         }
@@ -372,6 +445,15 @@ public class GFPlayerView: UIView, UIWebViewDelegate, NSURLConnectionDelegate {
                 }
             }
         }
+        
+    }
+    
+    func disableFullVideo() {
+        separator1.removeFromSuperview()
+        fullVideoBtn.removeFromSuperview()
+        shareRight.active = false
+        var l = NSLayoutConstraint(item: separator2, attribute: NSLayoutAttribute.Leading, relatedBy: NSLayoutRelation.Equal, toItem: shareBtn, attribute: NSLayoutAttribute.Trailing, multiplier: 1, constant: 8)
+        l.active = true
     }
     
     @IBOutlet var profile: UIButton!
